@@ -1,0 +1,66 @@
+// styles for my resume
+
+/* font size, family and color set for body and head tags */
+body head {
+  font-family: "Open Sans", Arial, Sans-Serif;
+  font-size: 1em;
+  color: #404040;
+  font-weight: 400;
+}
+
+/* subtitles */
+#subTitles {
+  font-size: 1.5em;
+  background-color: #33485e;
+  color: white;
+  text-transform: uppercase;;
+  font-weight: 400;
+}
+
+/* job titles */
+#jobTitle {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+/* job organization */
+#organization {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+/* job dates */
+#jobDates {
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* contact info, skills and education */
+ul {
+  font-size: 1em;
+}
+
+/* name */
+#name {
+  font-size: 3em;
+  text-transform: uppercase;
+  color: #33485e;
+  text-align: center;
+
+  border-bottom:1px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+}
+
+/* job title */
+#title{
+font-size: 1.5em;
+color: #33485e;
+text-transform: uppercase;
+}
+
+#container {
+  width: 100%;
+  max-width: 1200px;
+}
