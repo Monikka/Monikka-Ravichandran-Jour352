@@ -1,4 +1,4 @@
-[title year, movie title, budget, gross],
+['title year', 'movie title', 'budget', 'gross'],
 [1920,'Over the Hill to the Poorhouse',100000,3000000],
 [1925,'The Big Parade',245000],
 [1929,'The Broadway Melody',379000,2808000],

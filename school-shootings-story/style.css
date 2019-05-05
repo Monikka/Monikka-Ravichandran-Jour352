@@ -1,0 +1,122 @@
+body {
+  font-family: 'PT Serif', serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25em;
+  max-width: 800px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+ text-align:left;
+ line-height:180%;
+}
+
+.red {
+ color: #e0162b;
+}
+
+.blue {
+ color: #0052a5;
+}
+
+.link { color: #e0162b; } /* CSS link color  */
+.link:hover { color: #0052a5; } /* CSS link hover */
+.link:visited { color: #000999; } /* CSS link visied */
+
+.bg-dark {
+ background:#000 !important;
+}
+
+ul.navbar-nav {
+ margin-left:50%;
+}
+
+.navbar {
+ font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-icon {
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.hero-image {
+  width:100%;
+  max-width:900px;
+  margin:0 auto;
+  padding-top:30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.story-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.story-byline {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.page-footer {
+  color: white;
+  background-color: Black;
+  height: 100px;
+  padding: 25px;
+}
+
+.stack-image {
+  width:100%;
+  max-width:900px;
+  margin:0 auto;
+  padding-top:30px;
+}
+
+.caption {
+   width:100%;
+   max-width:900px;
+   margin:0 auto;
+   padding-bottom:30px;
+   font-family: 'Montserrat', sans-serif;
+   color:#999;
+}
+
+.chapter-headline {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  width:100%;
+}
+
+.yearly-shootings {
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  color: Black;
+  font-size: 1em;
+}
+
+.graphic-container {
+ padding-top:30px;
+ padding-bottom:30px;
+ border-top:1px solid #cdcdcd;
+ border-bottom:1px solid #cdcdcd;
+ font-family: 'Montserrat', sans-serif;
+ margin:0 auto;
+}
