@@ -3,21 +3,12 @@ body {
 }
 
 p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.25em;
-  max-width: 800px;
-  text-align: center;
-  margin-top: 25px;
-  margin-bottom: 25px;
+ text-align: left;
+ line-height: 180%;
 }
 
 a {
   text-decoration: none;
-}
-
-p {
- text-align:left;
- line-height:180%;
 }
 
 .red {
@@ -30,7 +21,13 @@ p {
 
 .link { color: #e0162b; } /* CSS link color  */
 .link:hover { color: #0052a5; } /* CSS link hover */
-.link:visited { color: #000999; } /* CSS link visied */
+.link:visited { color: #000999; } /* CSS link visited */
+
+.container{
+text-align: center;
+margin-left: 10%;
+margin-right: 10%;
+}
 
 .bg-dark {
  background:#000 !important;
@@ -55,8 +52,6 @@ ul.navbar-nav {
   margin:0 auto;
   padding-top:30px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .story-title {
@@ -67,9 +62,21 @@ ul.navbar-nav {
 }
 
 .story-byline {
-  text-align: center;
-  padding: 0px;
-  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.intro {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.intro-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25em;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .page-footer {
@@ -77,6 +84,7 @@ ul.navbar-nav {
   background-color: Black;
   height: 100px;
   padding: 25px;
+  width: 100%;
 }
 
 .stack-image {
@@ -89,10 +97,10 @@ ul.navbar-nav {
 .caption {
    width:100%;
    max-width:900px;
-   margin:0 auto;
    padding-bottom:30px;
    font-family: 'Montserrat', sans-serif;
    color:#999;
+   justify-content: center;
 }
 
 .chapter-headline {
@@ -107,9 +115,13 @@ ul.navbar-nav {
 
 .yearly-shootings {
   font-family: 'PT Serif', serif;
-  font-weight: 700;
   color: Black;
-  font-size: 1em;
+  font-size: 1.10em;
+  line-height: 150%;
+}
+
+.graphic-continer-headline {
+  font-size: 2em;
 }
 
 .graphic-container {
@@ -119,4 +131,20 @@ ul.navbar-nav {
  border-bottom:1px solid #cdcdcd;
  font-family: 'Montserrat', sans-serif;
  margin:0 auto;
+}
+
+.chartMargin {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.dataBox {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #d3d3d3;
+  padding: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 20px;
+  margin-top:20px;
+  font-size: 1.1em;
 }
